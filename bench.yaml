@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/gatecat/one_hot_fpga_gf180
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: Apache-2.0
+  upstream_default_branch: main
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: 56C6
+  project: One-hot FABulous FPGA
+  size: caravel-upw
+  kind: digital, custom cells
+  commit: bf540bcdad
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/56C6
+  branch: tapeout/google/gf180mcu-mpw0/56C6
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:40:33Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/56C6
+- upstream/main
